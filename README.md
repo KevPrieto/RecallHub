@@ -23,16 +23,7 @@ It’s designed as a *digital memory vault* — a backend system that stores, se
 
 ## 🧱 Architecture Overview
 
-com.recallhub
-┣ config/ → Database & Swagger configuration
-┣ controller/ → REST API endpoints
-┣ dto/ → Data Transfer Objects
-┣ entity/ → JPA Entities
-┣ repository/ → JpaRepository interfaces
-┣ service/ → Business logic layer
-┣ security/ → JWT and authentication setup (coming soon)
-┣ util/ → Utility classes (mappers, formatters)
-┗ RecallHubApplication.java
+<img width="428" height="213" alt="image" src="https://github.com/user-attachments/assets/9151272f-c61c-4af6-854c-f941b6d6bff7" />
 
 
 The architecture follows the **Layered (N-Tier) pattern**:
